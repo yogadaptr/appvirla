@@ -8,7 +8,10 @@
 				"build",
 				"apk"
 			],
-			"group": "build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
 			"problemMatcher": [],
 			"label": "flutter: flutter build apk"
 		},
@@ -19,10 +22,7 @@
 				"build",
 				"ios"
 			],
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			},
+			"group": "build",
 			"problemMatcher": [],
 			"label": "flutter: flutter build ios"
 		}

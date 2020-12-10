@@ -213,7 +213,18 @@ class Page2 extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               CarouselSlider(
-                items: ['halo', 2, 3, 4, 5].map((i) {
+                items: [
+                  'Dear Vivi, i`m lucky that i was given a chance to meet someone like you. whatever happens and wherever we are, i’ll always treasure you because i know i’ll never have another friend like you.',
+                  'Happy Birthday babe! may your birthday be as fantastic and heavenly as our friendship and may you and yoga always be together through thick and thin. love you incredibly and inevitably<3  -kya',
+                  'Happy bday vv yg sekarang udah jadi wanita karier!! moga selalu bahagia dan ga gampang nyerah, ngeluh sebanyak2nya boleh kok wkwk. Hmm cita-citamu keknya masih banyak deh jd kejar terusss apapun rintangannya pasti bisa krn km quaattt💪🏻. Plis kalo nikah undang aku y! sekali lagi met ultah teman sepermainan SMA🌈🌈',
+                  'Vi makasih ya udah mau jadi temanku, pokoknya.. duh ga tau deh mo ngomong apa, pokoknya jadi temenku aja terus ya. sedih nah... walaupun aku nyebelin buat km, km juga. cape temenan tp kangen, trs kepikiran km gimana-gimana,',
+                  'Karena km selalu sendiri dan km selalu berusaha keliatan ✨gapapa✨ tahan sedikit lagi yaa, selalu ingat itu kalo km lagi capee, ditahan dikit capenyaa okaay. kami (siapapun itu) sebisa mungkin, dgn segala keterbatasan manusia ini, akan selalu ada buat kamu. met ulang tahun🤍',
+                  'Happy birthday pi! always remember, the sun will rise, and we can always try again tommorrow. jadi jangan terlalu keras sama diri sendiri dan try to enjoy growing up! ❤️, tac',
+                  'Happy birthday pi! always remember, the sun will rise, and we can always try again tommorrow. jadi jangan terlalu keras sama diri sendiri dan try to enjoy growing up! ❤️, tac',
+                  'Happy birthday pi! always remember, the sun will rise, and we can always try again tommorrow. jadi jangan terlalu keras sama diri sendiri dan try to enjoy growing up! ❤️, tac',
+                  'Kepada yth Ibu negara dwiputra. Selamat ulang tahun, kami doakan selaku pasangan dari bekasi, semoga ibu diberi kelancaran dan kemudahan dalam hidupnya. Serta tak lupa kami doakan semoga diberikan umur yang panjang dan rezeki yang melimpah. Semoga apapun perjalanan yang nantinya ibu tempuh akan selalu dalam lindungan tuhan yang maha kuasa. Sekali lagi kami ucapkan selamat ulang tahun. Salam hormat dari kami, hasbi & aqila',
+                  'Happy birthday buat virla mabro, semoga kuat di kotabaru langgeng terus sama yoga terus biasanya orang ulang tahun quotesnya apa aja ya? yauda apa ajala tentang virla nanti aku aminin.'
+                ].map((i) {
                   return Builder(
                     builder: (BuildContext context) {
                       return Container(
@@ -223,7 +234,7 @@ class Page2 extends StatelessWidget {
                           child: Text(
                             ' $i',
                             style:
-                                TextStyle(fontSize: 20.0, color: Colors.white),
+                                TextStyle(fontSize: 15.0, color: Colors.white),
                           ));
                     },
                   );
@@ -235,7 +246,7 @@ class Page2 extends StatelessWidget {
                 enableInfiniteScroll: true,
                 reverse: false,
                 autoPlay: true,
-                autoPlayInterval: Duration(seconds: 2),
+                autoPlayInterval: Duration(seconds: 3),
                 autoPlayAnimationDuration: Duration(milliseconds: 800),
                 pauseAutoPlayOnTouch: Duration(seconds: 1),
                 enlargeCenterPage: false,
@@ -248,11 +259,16 @@ class Page2 extends StatelessWidget {
             children: <Widget>[
               CarouselSlider(
                 items: [
-                  'assets/images/virla1.jpg',
-                  'assets/images/virla2.jpg',
-                  'assets/images/virla3.jpg',
-                  'assets/images/virla4.jpg',
-                  'assets/images/virla5.jpg',
+                  'assets/images/virla6.jpeg',
+                  'assets/images/virla7.jpeg',
+                  'assets/images/virla8.jpeg',
+                  'assets/images/virla9.jpeg',
+                  'assets/images/virla9.jpeg',
+                  'assets/images/virla10.jpeg',
+                  'assets/images/virla11.jpeg',
+                  'assets/images/virla12.jpeg',
+                  'assets/images/hasbi.JPG',
+                  'assets/images/adam.jpeg',
                 ].map((i) {
                   return Builder(
                     builder: (BuildContext context) {
@@ -274,7 +290,7 @@ class Page2 extends StatelessWidget {
                 enableInfiniteScroll: true,
                 reverse: false,
                 autoPlay: true,
-                autoPlayInterval: Duration(seconds: 2),
+                autoPlayInterval: Duration(seconds: 3),
                 autoPlayAnimationDuration: Duration(milliseconds: 800),
                 pauseAutoPlayOnTouch: Duration(seconds: 1),
                 enlargeCenterPage: true,
@@ -360,6 +376,17 @@ class Page3 extends StatelessWidget {
               'assets/images/virla3.jpg',
               'assets/images/virla4.jpg',
               'assets/images/virla5.jpg',
+              'assets/images/vv1.png',
+              'assets/images/vv2.jpg',
+              'assets/images/vv3.jpg',
+              'assets/images/vv4.jpg',
+              'assets/images/vv5.jpg',
+              'assets/images/vv6.jpg',
+              'assets/images/vv7.jpg',
+              'assets/images/vv8.jpg',
+              'assets/images/vv9.jpg',
+              'assets/images/v10.jpg',
+              'assets/images/v11.jpg',
             ].map((i) {
               return Builder(
                 builder: (BuildContext context) {
